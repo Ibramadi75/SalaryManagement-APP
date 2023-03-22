@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "name": "salarymanagement-app",
+  "version": "1.0.0",
+  "description": "App that allow to manage salary in enterprises easily ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-docs": "jsdoc -c /path/to/my/conf.js"
+  },
+  "author": "Ibrahim Madi",
+  "license": "ISC",
+  "devDependencies": {
+    "jsdoc": "^4.0.2"
+  }
+}

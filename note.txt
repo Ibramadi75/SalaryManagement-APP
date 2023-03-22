@@ -1,0 +1,10 @@
+db.Employees.insertOne({
+    name : "Ibrahim",
+    surname : "Madi",
+    adress : "37 avenue de Mongo, Paris",
+    service : "IT",
+    socialSecurityNumber : "321",
+    grossSalary : "1188.37",
+    HiringDate : Date.now(),
+    endDateContract : null,
+});
