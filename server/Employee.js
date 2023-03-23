@@ -4,11 +4,11 @@ const { Schema } = mongoose;
 const employeeSchema = new Schema({
     name : String,
     surname : String,
-    adress : String,
+    address : String,
     service : String,
-    socialSecurityNumber : String,
+    socialSecurityNumber : Number,
     grossSalary : mongoose.Decimal128,
-    HiringDate : { type : Date, default : Date.now() },
+    hiringDate : { type : Date, default : Date.now() },
     endDateContract : { type : Date, default : null }
 },{
     methods: {
